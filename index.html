@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="assets/built/screen.css?v=c774171a9e">
+    <link rel="stylesheet" type="text/css" href="assets/built/screen.css?v=98026dc21f">
 
     <meta name="description" content="Thoughts, stories and ideas.">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -28,6 +28,8 @@
     <meta name="twitter:url" content="http://localhost:2368/">
     <meta name="twitter:image" content="https://casper.ghost.org/v1.0.0/images/blog-cover.jpg">
     <meta name="twitter:site" content="@ikhwanuddin">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="666">
     
     <script type="application/ld+json">
 {
@@ -39,7 +41,12 @@
         "logo": "http://localhost:2368/content/images/2018/07/ghost-logo.png"
     },
     "url": "http://localhost:2368/",
-    "image": "https://casper.ghost.org/v1.0.0/images/blog-cover.jpg",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://casper.ghost.org/v1.0.0/images/blog-cover.jpg",
+        "width": 2000,
+        "height": 666
+    },
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -48,7 +55,7 @@
 }
     </script>
 
-    <script src="public/ghost-sdk.js?v=c774171a9e"></script>
+    <script src="public/ghost-sdk.js?v=98026dc21f"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
@@ -97,6 +104,40 @@ ghost.init({
     <div class="inner">
 
         <div class="post-feed">
+
+                <article class="post-card post tag-thought">
+        <a class="post-card-image-link" href="jendela-waktu-berjumpa/">
+            <div class="post-card-image" style="background-image: url(content/images/2018/07/de.jpg)"></div>
+        </a>
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="jendela-waktu-berjumpa/">
+            <header class="post-card-header">
+                    <span class="post-card-tags">thought</span>
+                <h2 class="post-card-title">Jendela Waktu Berjumpa</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>Grafik Hubungan Jaringan Pertemanan Vs Pendapatan (bukan data sebenarnya)Let's talk guys.. Saya ingin mengangkat isu tentang jendela waktu berjumpa dengan calon jodoh. Pada usia-usia begini saya pribadi semakin menyadari bahwa jendela waktu</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+
+                    <div class="author-name-tooltip">
+                        Rifqi Ikhwanuddin
+                    </div>
+
+                        <a href="author/ikhwanuddin/" class="static-avatar"><img class="author-profile-image" src="content/images/2018/07/tf-foto-rifqi.jpg" alt="Rifqi Ikhwanuddin"></a>
+                </li>
+            </ul>
+
+            <span class="reading-time">5 min read</span>
+
+        </footer>
+    </div>
+</article>
+
 
                 <article class="post-card post tag-journal tag-ghost-tag featured">
         <a class="post-card-image-link" href="hello-ghost/">
@@ -185,7 +226,7 @@ ghost.init({
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=c774171a9e"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=98026dc21f"></script>
 
     <script>
         // maxPages is a global variable that is needed to determine
@@ -193,7 +234,7 @@ ghost.init({
         // we reached the last page already.
         var maxPages = parseInt('1');
     </script>
-    <script src="assets/js/infinitescroll.js?v=c774171a9e"></script>
+    <script src="assets/js/infinitescroll.js?v=98026dc21f"></script>
 
     
 
