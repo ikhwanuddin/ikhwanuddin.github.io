@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css?v=8ae0bab86d">
+    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css?v=c469b17932">
 
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="canonical" href="index.html">
@@ -70,14 +70,14 @@
 }
     </script>
 
-    <script src="../public/ghost-sdk.js?v=8ae0bab86d"></script>
+    <script src="../public/ghost-sdk.js?v=c469b17932"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "28ac7dc2470e"
 });
 </script>
-    <meta name="generator" content="Ghost 1.24">
+    <meta name="generator" content="Ghost 2.1">
     <link rel="alternate" type="application/rss+xml" title="@ikhwanudd.in" href="../rss/index.html">
 
 </head>
@@ -123,34 +123,13 @@ ghost.init({
             </figure>
 
             <section class="post-full-content">
-                <div class="kg-post">
-<p>Saya punya hobi yang pelan-pelan jadi profesional, karya-karya itu saya pajang di sini. Sebenarnya ada banyak juga lainnya tapi tidak bisa ditunjukkan karena buktinya sudah tidak ada (data dan laptop hilang).</p><h2>Web Programming</h2><p><img src="https://image.ibb.co/cnwd7p/indoakustik.png" alt="IndoAkustik.com"><br>
+                <div class="post-content">
+                    <p>Saya punya hobi yang pelan-pelan jadi profesional, karya-karya itu saya pajang di sini. Sebenarnya ada banyak juga lainnya tapi tidak bisa ditunjukkan karena buktinya sudah tidak ada (data dan laptop hilang).</p><h2 id="web-programming">Web Programming</h2><p><img src="https://image.ibb.co/cnwd7p/indoakustik.png" alt="IndoAkustik.com"><br>
 <a href="http://indoakustik.com/">IndoAkustik.com</a></p>
 <p><img src="https://image.ibb.co/gNFXYU/statistik_jakarta_go_id.png" alt=""><br>
 <a href="https://statistik.jakarta.go.id/">statistik.jakarta.go.id</a></p>
 
-</div>
-                <div id="disqus_thread"></div>
-                <script>
-
-                /**
-                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                /*
-                var disqus_config = function () {
-                this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                };
-                */
-                (function() { // DON'T EDIT BELOW THIS LINE
-                var d = document, s = d.createElement('script');
-                s.src = 'https://ikhwanuddin.disqus.com/embed.js';
-                s.setAttribute('data-timestamp', +new Date());
-                (d.head || d.body).appendChild(s);
-                })();
-                </script>
-                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
+                </div>
             </section>
 
         </article>
@@ -181,13 +160,13 @@ ghost.init({
                 <img class="subscribe-overlay-logo" src="../content/images/2018/07/ghost-logo.png" alt="@ikhwanudd.in">
             <h1 class="subscribe-overlay-title">Subscribe to @ikhwanudd.in</h1>
             <p class="subscribe-overlay-description">Stay up to date! Get all the latest &amp; greatest posts delivered straight to your inbox</p>
-            <form method="post" action="http://localhost:2368/subscribe/" class="">
+            <form method="post" action="http://localhost:2368/subscribe/" id="" class="">
     <input class="confirm" type="hidden" name="confirm"><input class="location" type="hidden" name="location"><input class="referrer" type="hidden" name="referrer">
 
     <div class="form-group">
         <input class="subscribe-email" type="email" name="email" placeholder="youremail@example.com">
     </div>
-    <button class="" type="submit"><span>Subscribe</span></button>
+    <button id="" class="" type="submit"><span>Subscribe</span></button>
     
 <script>
     (function(g,h,o,s,t){
@@ -207,9 +186,21 @@ ghost.init({
         </div>
     </div>
 
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=8ae0bab86d"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=c469b17932"></script>
 
 
     <script>
