@@ -6,6 +6,8 @@ git commit -m "Bersihkan sudo rm -r *"
 git push
 cd ..
 sudo ./buster.py generate --domain=http://localhost:2368/
+wget http://localhost:2368/rss
+sudo cp rss static/
 sudo cp CNAME static/
 sudo cp README.md static/
 sudo cp deploy.sh static/
