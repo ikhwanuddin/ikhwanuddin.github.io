@@ -4,6 +4,7 @@ sudo rm -r *
 sudo rm .DS_Store
 git commit -m "Bersihkan sudo rm -r *"
 git push
+mkdir rss
 cd ..
 sudo ./buster.py generate --domain=http://localhost:2368/
 wget http://127.0.0.1:2368/rss
