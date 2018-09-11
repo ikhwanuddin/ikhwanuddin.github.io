@@ -7,7 +7,8 @@ git push
 cd ..
 sudo ./buster.py generate --domain=http://localhost:2368/
 wget http://127.0.0.1:2368/rss
-sudo cp rss static/
+sudo mv rss index.xml
+sudo cp index.xml static/rss/
 sudo cp CNAME static/
 sudo cp README.md static/
 sudo cp deploy.sh static/
