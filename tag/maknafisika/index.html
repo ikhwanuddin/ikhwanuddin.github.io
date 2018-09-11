@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=11d32090f8">
+    <link rel="stylesheet" type="text/css" href="../../assets/built/screen.css?v=55fc0e7570">
 
     <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
     <link rel="canonical" href="http://ikhwanudd.in/tag/maknafisika/">
@@ -42,7 +42,7 @@
 }
     </script>
 
-    <script src="../../public/ghost-sdk.min.js?v=11d32090f8"></script>
+    <script src="../../public/ghost-sdk.min.js?v=55fc0e7570"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
@@ -187,7 +187,7 @@ ghost.init({
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../../assets/js/jquery.fitvids.js?v=11d32090f8"></script>
+    <script type="text/javascript" src="../../assets/js/jquery.fitvids.js?v=55fc0e7570"></script>
 
     <script>
         // maxPages is a global variable that is needed to determine
@@ -195,10 +195,15 @@ ghost.init({
         // we reached the last page already.
         var maxPages = parseInt('1');
     </script>
-    <script src="../../assets/js/infinitescroll.js?v=11d32090f8"></script>
+    <script src="../../assets/js/infinitescroll.js?v=55fc0e7570"></script>
 
     
 
     
-
+    <script>
+    var loc = window.location.href+'';
+    if (loc.indexOf('http://')==0){
+      window.location.href = loc.replace('http://','https://');
+    }
+    </script>
 </body>
