@@ -1,0 +1,15 @@
+.cp__sidebar-help-btn { /*hide help button*/
+    display: none;
+ }
+/*
+.ls-block[data-refs-self*='"'] > .flex.flex-row.pr-2 .bullet-container .bullet:before {
+  content: "\edcd" !important;
+  font-family: 'tabler-icons';
+  color: hsl(var(--cl-primary), 0.95);
+  background-color: hsl(var(--cl-primary), 0.15);
+  border-radius: 50%;
+}
+*/
+.mx-auto {
+    margin-top: 30px;
+}

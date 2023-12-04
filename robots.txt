@@ -1,3 +1,0 @@
-User-agent: *
-Sitemap: http://ikhwanudd.in/sitemap.xml
-Disallow: /ghost/
